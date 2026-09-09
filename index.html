@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<!--
+  ============================================================================
+  GES Planner — Gizlilik Politikası (GitHub Pages)
+
+  TEST SÜRÜMÜ. Play Store yayınından önce DEĞİŞTİRİLECEK İKİ DEĞER:
+    1) İsim   : "Mehmet Zafer Arslan"
+    2) E-posta: "mehmetzaferarslan@gmail.com"
+  Bu dosyada isim 1 yerde, e-posta 2 yerde geçer; aşağıda "DEĞİŞTİR" yorumuyla
+  işaretlendiler. Ctrl+H ile toplu değiştirmek en kolayı.
+
+  Uygulama kodunda aynı iki değer TEK yerde tutulur:
+    app/src/main/kotlin/com/gesplanner/app/AppInfo.kt
+  ============================================================================
+-->
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GES Planner — Gizlilik Politikası</title>
+<meta name="description" content="GES Planner uygulamasının gizlilik politikası ve KVKK aydınlatma metni.">
+<style>
+  :root {
+    --ana: #1b6b45;
+    --ana-acik: #e8f0ea;
+    --metin: #1f2328;
+    --soluk: #5b6570;
+    --cizgi: #e2e6e9;
+    --zemin: #ffffff;
+    --kart: #f7f9f8;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --ana: #6cc79a;
+      --ana-acik: #17291f;
+      --metin: #e6e9ec;
+      --soluk: #a3adb8;
+      --cizgi: #2c3238;
+      --zemin: #14171a;
+      --kart: #1b1f23;
+    }
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    background: var(--zemin);
+    color: var(--metin);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 17px;
+    line-height: 1.65;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  header {
+    background: var(--ana-acik);
+    border-bottom: 1px solid var(--cizgi);
+    padding: 28px 20px 22px;
+  }
+  header .ic { max-width: 760px; margin: 0 auto; }
+  header h1 {
+    margin: 0 0 6px;
+    font-size: 1.5rem;
+    line-height: 1.3;
+    color: var(--ana);
+  }
+  header p { margin: 0; color: var(--soluk); font-size: 0.95rem; }
+
+  main {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 8px 20px 56px;
+  }
+
+  h2 {
+    margin: 34px 0 10px;
+    font-size: 1.2rem;
+    line-height: 1.35;
+    padding-top: 14px;
+    border-top: 1px solid var(--cizgi);
+  }
+  h2:first-of-type { border-top: none; padding-top: 0; }
+  h3 { margin: 22px 0 8px; font-size: 1.02rem; color: var(--ana); }
+
+  p, li { overflow-wrap: break-word; }
+  ul { padding-left: 22px; }
+  li { margin: 6px 0; }
+
+  a { color: var(--ana); text-decoration: underline; text-underline-offset: 2px; }
+
+  .kart {
+    background: var(--kart);
+    border: 1px solid var(--cizgi);
+    border-radius: 10px;
+    padding: 14px 18px;
+    margin: 16px 0;
+  }
+  .kart p:first-child { margin-top: 0; }
+  .kart p:last-child { margin-bottom: 0; }
+
+  .etiket { font-weight: 600; }
+
+  footer {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 22px 20px 48px;
+    border-top: 1px solid var(--cizgi);
+    color: var(--soluk);
+    font-size: 0.9rem;
+  }
+
+  @media (max-width: 480px) {
+    body { font-size: 16px; }
+    header { padding: 22px 16px 18px; }
+    header h1 { font-size: 1.28rem; }
+    main { padding: 8px 16px 44px; }
+    footer { padding: 20px 16px 40px; }
+    h2 { font-size: 1.1rem; margin-top: 28px; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="ic">
+    <h1>GES Planner — Gizlilik Politikası ve KVKK Aydınlatma Metni</h1>
+    <p>Son güncelleme: 9 Eylül 2026</p>
+  </div>
+</header>
+
+<main>
+
+  <h2>1. Veri Sorumlusu</h2>
+  <!-- DEĞİŞTİR: isim -->
+  <p>Bu uygulama (&laquo;GES Planner&raquo;), Mehmet Zafer Arslan tarafından işletilmektedir.</p>
+  <!-- DEĞİŞTİR: e-posta (1/2) -->
+  <p>İletişim: <a href="mailto:mehmetzaferarslan@gmail.com">mehmetzaferarslan@gmail.com</a></p>
+
+  <h2>2. Hangi Verileri Topluyoruz</h2>
+
+  <h3>A. Yalnızca cihazınızda kalan veriler</h3>
+  <p>Aşağıdakiler yalnızca telefonunuzdaki uygulama veritabanında tutulur, siz talep etmedikçe hiçbir yere gönderilmez:</p>
+  <ul>
+    <li>Kaydettiğiniz projeler</li>
+    <li>Kataloğa eklediğiniz özel ürünler</li>
+    <li>Döviz kuru önbelleği</li>
+    <li>Uygulama tercihleriniz</li>
+  </ul>
+
+  <h3>B. Açık onayınızla bizimle paylaşılan veriler</h3>
+  <p>Detaylı fiyat ve malzeme listesini görüntülemek istediğinizde, onay kutusunu işaretleyerek aşağıdaki bilgilerin tarafımıza iletilmesini kabul etmiş olursunuz:</p>
+
+  <div class="kart">
+    <p><span class="etiket">İletişim bilgileriniz:</span> Ad Soyad (isteğe bağlı), e-posta adresi, telefon numarası, onay verdiğiniz tarih ve saat.</p>
+    <p><span class="etiket">Hesaplamaya ilişkin bilgiler:</span> Seçtiğiniz il; seçtiğiniz sistem tipi (şebekeden bağımsız / şebeke bağlantılı / tarımsal sulama); uygulamaya girdiğiniz tüm hesaplama parametreleri (cihaz/yük listeniz &mdash; cihaz adı, gücü, günlük kullanım süresi, adedi; yıllık elektrik tüketiminiz; kurulum yapılacak alanın ölçüleri ve montaj tipi; akü tercihi, özerklik günü, sıcaklık ve maliyet varsayımları; sulama için arazi büyüklüğü, ürün ve sulama yöntemi, kuyu ve boru bilgileri); uygulamanın ürettiği sonuçlar (önerilen panel/invertör/akü, kapasiteler, tahmini maliyet ve maliyet kalemleri, kullanılan döviz kuru).</p>
+    <p><span class="etiket">Teknik bilgiler:</span> Uygulama sürümü, cihaz dili ve Android sürümü.</p>
+  </div>
+
+  <p>Bu veriler, Google'ın Firebase Firestore hizmeti üzerinden Almanya (Frankfurt) bölgesindeki sunucularda saklanır.</p>
+  <p>Onay vermezseniz bu bilgilerin hiçbiri gönderilmez; uygulamanın hesaplama özelliklerini kullanmaya devam edebilirsiniz.</p>
+
+  <h2>3. Verileri Neden İşliyoruz</h2>
+  <ul>
+    <li>Talebiniz doğrultusunda sizinle iletişime geçmek ve teklif hazırlamak</li>
+    <li>Sisteminize uygun ürün ve fiyat önerisi sunabilmek</li>
+    <li>Uygulamanın hesaplama doğruluğunu değerlendirmek ve geliştirmek</li>
+  </ul>
+  <p>Hesaplama parametrelerinizi topluyoruz çünkü size anlamlı bir teklif hazırlayabilmek için sisteminizin ihtiyaçlarını bilmemiz gerekiyor.</p>
+
+  <h2>4. Verilerin Aktarımı</h2>
+  <p>Verileriniz, veri işleyen sıfatıyla Google (Firebase) altyapısında barındırılır. Bunun dışında üçüncü taraflarla ticari amaçla paylaşılmaz, satılmaz, pazarlama listelerine eklenmez.</p>
+
+  <h2>5. Haklarınız (KVKK md. 11)</h2>
+  <p>6698 sayılı Kişisel Verilerin Korunması Kanunu kapsamında; verilerinizin işlenip işlenmediğini öğrenme, işlenmişse bilgi talep etme, işlenme amacını öğrenme, yurt içi/yurt dışında aktarıldığı üçüncü kişileri bilme, eksik veya yanlış işlenmişse düzeltilmesini isteme, silinmesini veya yok edilmesini isteme haklarına sahipsiniz.</p>
+  <!-- DEĞİŞTİR: e-posta (2/2) -->
+  <p>Bu haklarınızı kullanmak için <a href="mailto:mehmetzaferarslan@gmail.com">mehmetzaferarslan@gmail.com</a> adresine yazabilirsiniz. Silme talepleriniz makul süre içinde yerine getirilir.</p>
+
+  <h2>6. Veri Saklama Süresi</h2>
+  <p>Paylaştığınız bilgiler, talebinizin karşılanması ve sonrasındaki makul takip iletişimi için saklanır. Silinmesini talep etmeniz halinde kayıtlarımızdan çıkarılır.</p>
+
+  <h2>7. Konum Bilgisi</h2>
+  <p>Uygulama, hesaplama doğruluğu için bir il seçmenizi ister. Bu bir liste seçimidir; GPS veya canlı konum verisi toplanmaz, konum izni istenmez.</p>
+
+  <h2>8. Çocukların Gizliliği</h2>
+  <p>Uygulama genel kullanıcı kitlesine yöneliktir ve bilerek 18 yaş altı kişilerden veri toplamayı hedeflemez.</p>
+
+  <h2>9. Değişiklikler</h2>
+  <p>Bu politika güncellenebilir. Önemli değişikliklerde uygulama içinde bilgilendirme yapılır.</p>
+
+</main>
+
+<footer>
+  GES Planner &mdash; güneş enerjisi sistem boyutlandırma uygulaması.
+</footer>
+
+</body>
+</html>
